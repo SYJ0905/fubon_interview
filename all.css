@@ -187,6 +187,11 @@ img {
   height: auto;
 }
 
+a:hover, a:focus, a:active {
+  text-decoration: none;
+  outline: none;
+}
+
 .go_top {
   display: none;
   position: fixed;

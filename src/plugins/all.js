@@ -10,11 +10,9 @@ function handleScroll() {
 
 function go_top(e) {
   e.preventDefault();
-  window.scroll({
-    top: 0,
-    left: 0,
-    behavior: 'smooth'
-  });
+  $('html, body').animate({
+    scrollTop: 0,
+  }, 300);
 }
 
 document.querySelector('.go_top').addEventListener('click', go_top);
