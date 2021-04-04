@@ -39,7 +39,7 @@
 }
 @font-face {
   font-family: PingFangMedium;
-  src: url("./src/assets/font/PingFangMedium.woff2") format("woff2"), url("./src/assets/font/PingFangMedium.ttf") format("truetype");
+  src: url("./src/assets/font/PingFangTC-Medium.woff2") format("woff2"), url("./src/assets/font/PingFangTC-Medium.woff") format("woff"), url("./src/assets/font/PingFangTC-Medium.ttf") format("truetype"), url("./src/assets/font/PingFangTC-Medium.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -271,6 +271,9 @@ a:hover, a:focus, a:active {
   .paege_change_step .page_header .title .title_type {
     margin: 0 7px 0 0;
   }
+}
+.paege_change_step .page_header .title .title_desc {
+  font-family: PingFangMedium;
 }
 .paege_change_step .page_header .border_line {
   position: absolute;

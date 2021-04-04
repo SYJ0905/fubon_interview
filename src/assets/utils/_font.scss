@@ -11,8 +11,10 @@
 
 @font-face {
   font-family: PingFangMedium;
-  src: url('./src/assets/font/PingFangMedium.woff2') format('woff2'),
-    url('./src/assets/font/PingFangMedium.ttf') format('truetype');
+  src: url('./src/assets/font/PingFangTC-Medium.woff2') format('woff2'),
+    url('./src/assets/font/PingFangTC-Medium.woff') format('woff'),
+    url('./src/assets/font/PingFangTC-Medium.ttf') format('truetype'),
+    url('./src/assets/font/PingFangTC-Medium.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
   font-display: swap;

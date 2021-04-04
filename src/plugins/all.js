@@ -1,6 +1,5 @@
 function handleScroll() {
   const scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop;
-  console.log('scrollTop =>', scrollTop);
   if (scrollTop >= 200) {
     document.querySelector('.go_top').classList.add('d-flex');
   } else {
