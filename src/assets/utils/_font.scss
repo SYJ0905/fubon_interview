@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;700&display=swap');
+@font-face {
+  font-family: PingFangRegular;
+  src: url('./src/assets/font/PingFangTC-Regular.woff2') format('woff2'),
+    url('./src/assets/font/PingFangTC-Regular.woff') format('woff'),
+    url('./src/assets/font/PingFangTC-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: PingFangMedium;
+  src: url('./src/assets/font/PingFangMedium.woff2') format('woff2'),
+    url('./src/assets/font/PingFangMedium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}

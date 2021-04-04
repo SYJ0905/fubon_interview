@@ -1,0 +1,14 @@
+.layout_footer {
+  display: none;
+  background: transparent linear-gradient(90deg, rgba(0, 130, 155, 1) 0%, rgba(0, 149, 131, 1) 100%) 0% 0% no-repeat padding-box;
+  font-size: 20px;
+  padding: 22px 0 13px 0;
+  color: rgba(255, 255, 253, 1);
+  text-align: center;
+  @include desktops_l {
+    display: block;
+  }
+  .copyright_desc {
+    margin: 0 0 12px 0;
+  }
+}

@@ -1,0 +1,69 @@
+*,
+*::before,
+*::after {
+  position: relative;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  font-family: PingFangRegular, sans-serif;
+}
+
+.wrap {
+  display: flex; 
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main {
+  flex: 1 1 auto;
+  margin: 61px 0 0 0;
+  @include desktops_l {
+    margin: 92px 0 0 0;
+    background-color: rgba(237, 251, 255, 1);
+  }
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.go_top {
+  display: none;
+  position: fixed;
+  right: 8px;
+  top: calc(100vh - 100px);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 130, 155, 0.31);
+  cursor: pointer;
+  @include desktops_l {
+    width: 59px;
+    height: 59px;
+    right: 53px;
+    top: calc(100vh - 118px);
+  }
+  .icon {
+    width: 20px;
+    margin: 0 auto;
+    transform: rotate(180deg);
+    @include desktops_l {
+      width: 24px;
+    }
+  }
+}
